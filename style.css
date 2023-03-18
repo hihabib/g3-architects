@@ -11,7 +11,9 @@
     --primary: #FF900E;
     --secondary: #FFF4E7;
 }
-
+p {
+    font-size: 16px;
+}
 body {
     margin: 0;
     padding: 0;
@@ -28,6 +30,19 @@ h1 {
 .container {
     width: 1140px;
     margin: 0 auto;
+    position: relative
+}
+.lite {
+    font-weight: medium;
+    color: var(--dark03)
+}
+.bold {
+    font-weight: bold;
+    color: var(--dark01)
+}
+.colored {
+    font-weight: bold;
+    color: var(--primary);
 }
 .header {
     display: flex;
@@ -77,4 +92,102 @@ button {
     border-radius: 10px;
     max-width: 100%;
     margin: 50px 0;
+}
+.group {
+    display: flex;
+    column-gap: 70px;
+    margin-top: 85px;
+    align-items: center;
+}
+.group > div {
+    flex-basis: 50%;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 24px;
+}
+.gallery > img {
+    max-width: calc(50% - 12px);
+}
+.explore h1 {
+    font-size: 45px;
+}
+.explore p {
+    color: var(--dark03);
+    margin-bottom: 32px;
+}
+.features {
+    display: flex;
+    column-gap: 145px;
+    margin-top: 130px;
+    align-items: center;
+}
+.features>div {
+    flex-basis: 50%;
+}
+.features>.details p {
+    margin-top: 20px;
+}
+.features img {
+    max-width: 100%;
+}
+.features h1 {
+    color: var(--dark01);
+    font-size: 45px;
+    position: relative;
+    left: 15px
+}
+.features h1::before{
+    position: absolute;
+    content: '';
+    background-color: var(--primary);
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    height: 100%;
+    left: -15px;
+}
+.features p {
+    color: var(--dark03);
+    margin: 0 25px 0 0 ;
+}
+.feature {
+    margin-top: 30px;
+}
+.feature>div {
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    padding: 30px 33px;
+    margin-bottom: 20px;
+}
+.feature h3 {
+    color: var(--dark01);
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+}
+.experience-highlight {
+    color: white;
+    background-color: var(--primary);
+    display: inline-block;
+    padding: 45px 50px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 8px;
+    margin-left: 300px;
+}
+.experience-highlight h1 {
+    color: white;
+    font-size: 65px;
+}
+.float-button {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    transform: scale(0.7);
 }
