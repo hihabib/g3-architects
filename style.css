@@ -191,3 +191,78 @@ button {
     right: 0;
     transform: scale(0.7);
 }
+.fact {
+    margin-top: 130px;
+}
+.fact h1{
+    color: var(--dark01);
+    font-size: 45px;
+}
+.fact p {
+    color: var(--dark03);
+    font-size: 16px;
+}
+.fact .list {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0 180px 0;
+}
+.fact .list .box {
+    border: 1px solid var(--primary);
+    padding: 45px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.fact .list .box:hover {
+    transform: scale(1.1);
+}
+.fact .list .box img {
+    height: 45px;
+    width: 45px;
+}
+.fact .list .box h2 {
+    color: var(--dark02);
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0;
+}
+.fact .list .box span {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--dark03)
+}
+.sponsor {
+    text-align: center;
+}
+.sponsor h1 {
+    color: var(--dark01);
+    font-size: 45px;
+    font-weight: bold;
+}
+.sponsor p {
+    font-size: 16px;
+    color: var(--dark03)
+}
+.sponsor .list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.sponsor .list img {
+    height: 50px;
+    filter: grayscale(100%);
+}
+.footer {
+    background-color: var(--secondary);
+    border-radius: 8px;
+    color: var(--dark02);
+    font-size: 20px;
+    text-align: center;
+    padding: 39px 0;
+    margin: 130px 0 100px 0;
+}
