@@ -251,7 +251,7 @@ button {
 .sponsor .list {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 10vw;
 }
 .sponsor .list img {
     height: 50px;
@@ -266,3 +266,4 @@ button {
     padding: 39px 0;
     margin: 130px 0 100px 0;
 }
+

@@ -1,0 +1,51 @@
+@media screen and (max-width: 576px) {
+    .container {
+        width: calc(100% - 20px);
+        margin: 0 auto;
+        position: relative;
+        padding: 0 10px 0 10px;
+    }
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .group {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        row-gap: 30px;
+    }
+    .group > div {
+        flex-basis: 100%;
+    }
+    .gallery {
+        row-gap: 40px;
+    }
+    .gallery > img {
+        max-width: 100%;
+    }
+    .features {
+        flex-direction: column;
+    }
+    .float-button {
+        position: relative;   
+        bottom: 20px;
+        transform: scale(0.5);     
+    }
+    .experience-highlight {
+        margin-left: 0;
+    }
+    .fact .list {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .sponsor .list{
+        flex-direction: column;
+        row-gap: 70px;
+        align-items: center;
+    }
+    .sponsor .list img {
+        height: auto;
+        width: 50%;
+    }
+}
