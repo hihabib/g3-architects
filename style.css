@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+    --dark01: #131313;
+    --dark02: #424242;
+    --dark03: #727272;
+    --dark04: #A1A1A1;
+    --dark05: #D0D0D0;
+    --dark06: #E7E7E7;
+    --dark07: #F3F3F3;
+    --primary: #FF900E;
+    --secondary: #FFF4E7;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+header {
+    background-color: var(--secondary);
+}
+h1 {
+    margin: 0;
+    color: var(--dark01);
+    font-weight: bold;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+nav {
+    color: var(--dark02);
+    font-weight: 500;
+}
+header ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    column-gap: 50px;
+}
+.hero {
+    text-align: center;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+}
+.hero div {
+    font-weight: bold;
+    color: var(--dark01);
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+}
+.hero-title {
+    margin-top: 100px;
+}
+.hero p {
+    color: var(--dark03);
+    margin: 40px 0;
+}
+button {
+    background-color: var(--primary);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 30px;
+    font-weight: 600;
+}
+.banner {
+    border-radius: 10px;
+    max-width: 100%;
+    margin: 50px 0;
+}
